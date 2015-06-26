@@ -14,6 +14,10 @@
 		972BC8C61B3B94FF00BF2E01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972BC8C41B3B94FF00BF2E01 /* LaunchScreen.storyboard */; };
 		972BC8D11B3B94FF00BF2E01 /* CoreImageTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972BC8D01B3B94FF00BF2E01 /* CoreImageTestTests.swift */; };
 		972BC8DC1B3B94FF00BF2E01 /* CoreImageTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972BC8DB1B3B94FF00BF2E01 /* CoreImageTestUITests.swift */; };
+		972BC8EA1B3B9A7900BF2E01 /* MovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972BC8E91B3B9A7900BF2E01 /* MovieController.swift */; };
+		972BC8EC1B3B9D6800BF2E01 /* MovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972BC8EB1B3B9D6800BF2E01 /* MovieView.swift */; };
+		972BC8EE1B3BB4B800BF2E01 /* movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 972BC8ED1B3B9F7F00BF2E01 /* movie.mp4 */; };
+		9759B45E1B3D0ADC00577B21 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9759B45D1B3D0ADC00577B21 /* Filter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		972BC8D71B3B94FF00BF2E01 /* CoreImageTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreImageTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		972BC8DB1B3B94FF00BF2E01 /* CoreImageTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageTestUITests.swift; sourceTree = "<group>"; };
 		972BC8DD1B3B94FF00BF2E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		972BC8E91B3B9A7900BF2E01 /* MovieController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieController.swift; sourceTree = "<group>"; };
+		972BC8EB1B3B9D6800BF2E01 /* MovieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieView.swift; sourceTree = "<group>"; };
+		972BC8ED1B3B9F7F00BF2E01 /* movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie.mp4; sourceTree = "<group>"; };
+		9759B45D1B3D0ADC00577B21 /* Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,16 @@
 		972BC8BA1B3B94FF00BF2E01 /* CoreImageTest */ = {
 			isa = PBXGroup;
 			children = (
+				972BC8ED1B3B9F7F00BF2E01 /* movie.mp4 */,
 				972BC8BB1B3B94FF00BF2E01 /* AppDelegate.swift */,
 				972BC8BD1B3B94FF00BF2E01 /* ViewController.swift */,
 				972BC8BF1B3B94FF00BF2E01 /* Main.storyboard */,
 				972BC8C21B3B94FF00BF2E01 /* Assets.xcassets */,
 				972BC8C41B3B94FF00BF2E01 /* LaunchScreen.storyboard */,
 				972BC8C71B3B94FF00BF2E01 /* Info.plist */,
+				972BC8E91B3B9A7900BF2E01 /* MovieController.swift */,
+				972BC8EB1B3B9D6800BF2E01 /* MovieView.swift */,
+				9759B45D1B3D0ADC00577B21 /* Filter.swift */,
 			);
 			path = CoreImageTest;
 			sourceTree = "<group>";
@@ -228,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				972BC8EE1B3BB4B800BF2E01 /* movie.mp4 in Resources */,
 				972BC8C61B3B94FF00BF2E01 /* LaunchScreen.storyboard in Resources */,
 				972BC8C31B3B94FF00BF2E01 /* Assets.xcassets in Resources */,
 				972BC8C11B3B94FF00BF2E01 /* Main.storyboard in Resources */,
@@ -255,6 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				972BC8EA1B3B9A7900BF2E01 /* MovieController.swift in Sources */,
+				9759B45E1B3D0ADC00577B21 /* Filter.swift in Sources */,
+				972BC8EC1B3B9D6800BF2E01 /* MovieView.swift in Sources */,
 				972BC8BE1B3B94FF00BF2E01 /* ViewController.swift in Sources */,
 				972BC8BC1B3B94FF00BF2E01 /* AppDelegate.swift in Sources */,
 			);
@@ -483,6 +499,7 @@
 				972BC8E21B3B94FF00BF2E01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		972BC8E31B3B94FF00BF2E01 /* Build configuration list for PBXNativeTarget "CoreImageTestTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +508,7 @@
 				972BC8E51B3B94FF00BF2E01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		972BC8E61B3B94FF00BF2E01 /* Build configuration list for PBXNativeTarget "CoreImageTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +517,7 @@
 				972BC8E81B3B94FF00BF2E01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
